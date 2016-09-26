@@ -1,0 +1,76 @@
+#sortable1 {
+border: 1px solid #eee;
+width: 142px;
+min-height: 20px;
+list-style-type: none;
+margin: 0;
+padding: 5px 0 0 0;
+margin-right: 10px;
+}
+#sortable1 li:hover {
+cursor:grab;
+}
+#sortable1 li {
+margin: 0 5px 5px 5px;
+padding: 5px;
+font-size: 1.2em;
+width: 120px;
+}
+.ui-state-default {
+list-style: outside none none;
+}
+.imagetable {
+margin-top : 65px;
+width:100%;
+}
+.btnsave {
+	margin-top: 20px;
+	margin-left: 5px;
+    background: #0085ba;
+    color: #FFF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+	cursor: pointer;
+}
+button#btn_saveli:hover {
+    background: #07506d;
+}
+#featured_upload {
+	margin-top: 40px;
+}
+/* Front*/
+.slidesjs-pagination {
+display:none;
+}
+#slides,
+#slides2,
+#slides3 {
+display: none;
+margin-bottom:50px;
+}
+.slidesjs-navigation {
+margin-top:3px;
+}
+.slidesjs-previous {
+margin-right: 5px;
+float: left;
+}
+.slidesjs-next {
+margin-right: 5px;
+float: left;
+}
+a:link,
+a:visited {
+color: #333
+}
+a:hover,
+a:active {
+color: #9e2020
+}
+.navbar {
+overflow: hidden
+}
